@@ -3,11 +3,13 @@ TITLE = "Game"
 WIDTH = 480
 HEIGHT = 600
 FPS = 60
+FONT_NAME = 'arial'
 
 # Player properties
 PLAYER_ACC = .5
 PLAYER_FRICTION = -.12
 PLAYER_GRAVITY = .8
+PLAYER_JUMP = 20
 
 # Starting Platforms
 PLATFORM_LIST = [(0, HEIGHT - 40, WIDTH, 40),
